@@ -1,0 +1,17 @@
+{
+  "name": "blockchange-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:creator": "node ./creator/index.js",
+    "start:subscriber": "node ./subscriber/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "node-rdkafka": "^2.12.0"
+  }
+}
